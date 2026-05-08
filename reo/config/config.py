@@ -22,8 +22,10 @@ class BotConfigClass:
 
 
 class urls:
-    gif_api_base = "https://tenor.googleapis.com/v2/search"
-    gif_api_key = "AIzaSyBx9qncGCjblFYGOfyqta6WUoYJTOtK5Co"
+    gif_api_base = "https://api.giphy.com/v1/gifs/search"
+    gif_api_key = "your_giphy_api_key"
+
+# how to obtain giphy api key? create a account in giphy.com, in the developers page, create a application. In application name put "YourBotName".Platform is " Web", then put "Discord bot with action commands that uses gifs to enhance the experience" then create. 
 
 
 class channels:
